@@ -10,6 +10,9 @@
     <script src="{{ asset('js/app.js') }}"></script>
 </head>
 <body>
+<div>
+    <a href="/articles/create">  Добавить статью </a>
+</div>
 <div class="container mt-4">
     <h1>@yield('header')</h1>
     <div>
